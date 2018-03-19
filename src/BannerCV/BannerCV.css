@@ -1,10 +1,13 @@
 .bnr-banner {
-    height: 200px;
-    padding: 20px;
     background-image: linear-gradient(to top right, #497b21, #000000);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.bnr-banner-dimention {
+    height: 300px;
+    padding: 20px;
 }
 
 .bnr-banner-row {
@@ -21,11 +24,14 @@
 }
 
 .bnr-logo {
-    height: 50px;
-    width: 50px;
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.5;
+}
+
+.bnr-logo-dimention {
+    height: 50px;
+    width: 50px;
 }
 
 .bnr-angular-logo {
@@ -75,4 +81,36 @@
 }
 .bnr-bootstrap-logo {
     background-image: url(../images/bootstrap.svg);
+}
+
+@media all and (max-width: 599px) {
+
+    .bnr-banner-dimention {
+        height: 150px;
+        padding: 10px;
+    }
+
+    .bnr-logo-dimention {
+        height: 25px;
+        width: 25px;
+    }
+
+}
+@media all and (min-width: 599px) and (max-width: 959px) {
+
+    .bnr-banner-dimention {
+        height: 225px;
+        padding: 15px;
+    }
+
+    .bnr-logo-dimention {
+        height: 30px;
+        width: 30px;
+    }
+}
+@media all and (min-width: 959px) and (max-width: 1279px) {
+
+}
+@media all and (min-width: 1279px) and (max-width: 1919px) {
+
 }

@@ -6,6 +6,7 @@ import Toolbar from 'material-ui/Toolbar';
 import Button from 'material-ui/Button';
 import IconButton from 'material-ui/IconButton';
 import Icon from 'material-ui/Icon';
+import Hidden from 'material-ui/Hidden';
 
 
 const styles = theme => ({
@@ -28,7 +29,7 @@ const styles = theme => ({
 });
 
 
-const  ToolbarCV = (props) => {
+const ToolbarCV = (props) => {
     const { classes } = props;
     return (
         <div className={classes.root}>
@@ -37,30 +38,55 @@ const  ToolbarCV = (props) => {
                     <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
                         <Icon>laptop-mac</Icon>
                     </IconButton>
-                    
-                    <Button href="#skills" className={classes.button} color="inherit">
-                        Compétences
+
+                    <Hidden only={['xs', 'sm']}>
+                        <Button href="#skills" className={classes.button} color="inherit">
+                            Compétences
                         <Icon className={classes.rightIcon}>settings</Icon>
-                    </Button>
-                    <Button href="#education" className={classes.button} color="inherit">
-                        Diplômes
+                        </Button>
+                        <Button href="#education" className={classes.button} color="inherit">
+                            Diplômes
                         <Icon className={classes.rightIcon}>school</Icon>
-                    </Button>
-                    <Button href="#experience" className={classes.button} color="inherit">
-                        Expériences
+                        </Button>
+                        <Button href="#experience" className={classes.button} color="inherit">
+                            Expériences
                         <Icon className={classes.rightIcon}>work</Icon>
-                    </Button>
-                    <Button href="#languages" className={classes.button} color="inherit">
-                        Langues
+                        </Button>
+                        <Button href="#languages" className={classes.button} color="inherit">
+                            Langues
                         <Icon className={classes.rightIcon}>language</Icon>
-                    </Button>
+                        </Button>
 
-                    <span className={classes.flex}></span>
+                        <span className={classes.flex}></span>
 
-                    <Button className={classes.button} color="inherit">
-                        PDF
+                        <Button className={classes.button} color="inherit">
+                            PDF
                         <Icon className={classes.rightIcon}>file_download</Icon>
-                    </Button>
+                        </Button>
+                    </Hidden>
+
+                    <Hidden only={['md', 'lg', 'xl']}>
+
+                        <span className={classes.flex}></span>
+
+                        <IconButton color="inherit" aria-label="Menu">
+                            <Icon>settings</Icon>
+                        </IconButton>
+                        <IconButton color="inherit" aria-label="Menu">
+                            <Icon>school</Icon>
+                        </IconButton>
+                        <IconButton color="inherit" aria-label="Menu">
+                            <Icon>work</Icon>
+                        </IconButton>
+                        <IconButton color="inherit" aria-label="Menu">
+                            <Icon>languages</Icon>
+                        </IconButton>
+                        <IconButton color="inherit" aria-label="Menu">
+                            <Icon>file_download</Icon>
+                        </IconButton>
+
+                    </Hidden>
+
                 </Toolbar>
             </AppBar>
         </div>
