@@ -1,20 +1,37 @@
-import React, { Component } from 'react';
+import React from 'react';
+// import './App.css';
+import PropTypes from 'prop-types';
+import { withStyles } from 'material-ui/styles';
+import CvToolbar from '../CvToolbar/CvToolbar.jsx';
+import CvBanner from '../CvBanner/CvBanner.jsx';
+import CvCard from '../CvCard/CvCard.jsx';
 
-import ToolbarCV from '../ToolbarCV/ToolbarCV.jsx';
-import BannerCV from '../BannerCV/BannerCV.jsx';
+const styles = theme => ({
 
+});
 
-class App extends Component {
-  render() {
+const App = (props) => {
+    // const { classes } = props;
     return (
-      <div>
-        <header>
-          <ToolbarCV />
-          <BannerCV />
-        </header>
-      </div>
+        <div>
+            <header>
+                <CvToolbar />
+                <CvBanner />
+            </header>
+            <main className="container-fluid">
+                <div className="row">
+                    <div className="col-10 col-sm-8 col-md-6 mx-auto">
+                        <CvCard />
+                    </div>
+                </div>
+            </main>
+        </div>
     );
-  }
 }
 
-export default App;
+
+App.propTypes = {
+    classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(App);
