@@ -7,25 +7,19 @@
         "tel": "06 64 09 36 88",
         "email": "saad.fatihi9@gmail.com"
     },
-    "education": {
-        "title": "Formation",
-        "list": [
-            {
-                "id": "isima",
-                "period": "2012-2013",
-                "desc": "Master Génie Logiciel et Intégration d’Applications à l’université Blaise Pascal."
-            },
-            {
-                "id": "esisa",
-                "period": "2008-2012",
-                "desc": "Ingénieur d'application en génie informatique à ESISA (Ecole supérieure d’ingénierie en sciences appliquées)."
-            }
-        ]
-    },
+    "education": [
+        {
+            "period": "2012-2013",
+            "desc": "Master Génie Logiciel et Intégration d’Applications à l’université Blaise Pascal."
+        },
+        {
+            "period": "2008-2012",
+            "desc": "Ingénieur d'application en génie informatique à ESISA (Ecole supérieure d’ingénierie en sciences appliquées)."
+        }
+    ],
     "languages": [
         "Français",
-        "Anglais",
-        "Arabe"
+        "Anglais"
     ],
     "interests": [
         "Travail associatif",
@@ -33,116 +27,80 @@
     ],
     "TechnicalSkills": {
         "title": "Compétences",
-        "webTechnologies": {
-            "title": "Web",
-            "list": [
-                {
-                    "id": "html",
-                    "name": "HTML5",
-                    "certificated": true
-                },
-                {
-                    "id": "css",
-                    "name": "CSS3",
-                    "certificated": true
-                },
-                {
-                    "id": "scss",
-                    "name": "SCSS",
-                    "certificated": false
-                },
-                {
-                    "id": "js",
-                    "name": "Javascript",
-                    "certificated": true
-                },
-                {
-                    "id": "ts",
-                    "name": "Typescript",
-                    "certificated": false
-                }
-            ]
-        },
-        "jsFrameworks": {
-            "title": "Api & Framworks",
-            "list": [
-                {
-                    "id": "react",
-                    "name": "React",
-                    "certificated": false
-                },
-                {
-                    "id": "redux",
-                    "name": "Redux",
-                    "certificated": false
-                },
-                {
-                    "id": "angular",
-                    "name": "Angular",
-                    "certificated": false
-                },
-                {
-                    "id": "md",
-                    "name": "Material design",
-                    "certificated": false
-                },
-                {
-                    "id": "bootstrap",
-                    "name": "Bootstrap",
-                    "certificated": true
-                },
-                {
-                    "id": "jquery",
-                    "name": "JQuery",
-                    "certificated": true
-                }
-            ]
-        },
-        "databases": {
-            "title": "Databases",
-            "list": [
-                {
-                    "id": "mysql",
-                    "name": "MYSQL",
-                    "certificated": false
-                },
-                {
-                    "id": "postgresql",
-                    "name": "Postgresql",
-                    "certificated": false
-                },
-                {
-                    "id": "neo4j",
-                    "name": "Neo4J",
-                    "certificated": false
-                }
-            ]
-        },
-        "tools": {
-            "title": "Tools",
-            "list": [
-                {
-                    "id": "nodejs",
-                    "name": "Node.js",
-                    "certificated": true
-                },
-                {
-                    "id": "npm",
-                    "name": "npm & yarn",
-                    "certificated": true
-                },
-                {
-                    "id": "webpack",
-                    "name": "webpack",
-                    "certificated": false
-                },
-                {
-                    "id": "git",
-                    "name": "Git",
-                    "certificated": true
-                }
-            ]
-        }
+        "webTechnologies": [
+            {
+                "name": "Angular",
+                "certificated": false
+            },
+            {
+                "name": "React",
+                "certificated": false
+            },
+            {
+                "name": "HTML5 & CSS3",
+                "certificated": true
+            },
+            {
+                "name": "Material design",
+                "certificated": false
+            },
+            {
+                "name": "JQuery",
+                "certificated": true
+            },
+            {
+                "name": "Bootstrap",
+                "certificated": true
+            }
+        ],
+        "platforms": [
+            {
+                "name": "Java/JEE",
+                "certificated": false
+            },
+            {
+                "name": "DOTNET",
+                "certificated": false
+            }
+        ],
+        "Webservices": [
+            {
+                "name": "REST / JSON",
+                "certificated": false
+            },
+            {
+                "name": "SOAP",
+                "certificated": false
+            }
+        ],
+        "database": [
+            {
+                "name": "MYSQL",
+                "certificated": false
+            },
+            {
+                "name": "Postgresql",
+                "certificated": false
+            },
+            {
+                "name": "Neo4J",
+                "certificated": false
+            }
+        ],
+        "tools": [
+            {
+                "name": "Node.js, Express.js, Socket.io",
+                "certificated": true
+            },
+            {
+                "name": "Grunt, Gulp",
+                "certificated": false
+            },
+            {
+                "name": "Git",
+                "certificated": true
+            }
+        ]
     },
     "professionnalExperiences": [
         {

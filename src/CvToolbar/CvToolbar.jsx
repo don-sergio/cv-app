@@ -1,4 +1,5 @@
 import React from 'react';
+import resumeJSON from '../models/curriculum-vitae.json';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
@@ -41,12 +42,12 @@ const CvToolbar = (props) => {
 
                     <Hidden only={['xs', 'sm']}>
                         <Button href="#skills" className={classes.button} color="inherit">
-                            Compétences
-                        <Icon className={classes.rightIcon}>settings</Icon>
+                            {resumeJSON.TechnicalSkills.title}
+                            <Icon className={classes.rightIcon}>settings</Icon>
                         </Button>
                         <Button href="#education" className={classes.button} color="inherit">
-                            Diplômes
-                        <Icon className={classes.rightIcon}>school</Icon>
+                            {resumeJSON.education.title}
+                            <Icon className={classes.rightIcon}>school</Icon>
                         </Button>
                         <Button href="#experience" className={classes.button} color="inherit">
                             Expériences

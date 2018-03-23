@@ -23,15 +23,15 @@ const CvCard = (props) => {
                 <Divider />
                 <div className="crd-row">
                     <Icon className="crd-leftIcon">phone</Icon>
-                    <Typography variant="subheading">{resumeJSON.personalDetails.tel}</Typography>
+                    <Typography variant="body1">{resumeJSON.personalDetails.tel}</Typography>
                 </div>
                 <div className="crd-row">
                     <Icon className="crd-leftIcon">email</Icon>
-                    <Typography variant="subheading">{resumeJSON.personalDetails.email}</Typography>
+                    <Typography variant="body1">{resumeJSON.personalDetails.email}</Typography>
                 </div>
                 <div className="crd-row">
                     <Icon className="crd-leftIcon">location_on</Icon>
-                    <Typography variant="subheading">{resumeJSON.personalDetails.address}</Typography>
+                    <Typography variant="body1">{resumeJSON.personalDetails.address}</Typography>
                 </div>
             </CardContent>
         </Card>
