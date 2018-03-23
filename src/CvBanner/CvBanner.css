@@ -4,111 +4,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .bnr-banner-dimention {
-    height: 300px;
+    height: 200px;
     padding: 20px;
-}
-
-.bnr-banner-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.bnr-banner-row > div:nth-child(odd) {
-    transform: rotate(-20deg);
-}
-.bnr-banner-row > div:nth-child(even) {
-    transform: rotate(20deg);
-}
-
-.bnr-logo {
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-}
-
-.bnr-logo-dimention {
-    height: 50px;
-    width: 50px;
-}
-
-.bnr-angular-logo {
-    background-image: url(../images/angular.svg);
-}
-.bnr-git-logo {
-    background-image: url(../images/git.svg);
-}
-.bnr-html-logo {
-    background-image: url(../images/html.svg);
-}
-.bnr-nodejs-logo {
-    background-image: url(../images/nodejs.svg);
-}
-.bnr-react-logo {
-    background-image: url(../images/react.svg);
-}
-.bnr-redux-logo {
-    background-image: url(../images/redux.svg);
-}
-.bnr-sass-logo {
-    background-image: url(../images/sass.svg);
-}
-.bnr-webpack-logo {
-    background-image: url(../images/webpack.svg);
-}
-.bnr-vscode-logo {
-    background-image: url(../images/vs-code.svg);
-}
-.bnr-typescript-logo {
-    background-image: url(../images/typescript.svg);
-}
-.bnr-css-logo {
-    background-image: url(../images/css3.svg);
-}
-.bnr-elasticsearch-logo {
-    background-image: url(../images/elasticsearch.svg);
-}
-.bnr-js-logo {
-    background-image: url(../images/javascript.svg);
-}
-.bnr-npm-logo {
-    background-image: url(../images/npm.svg);
-}
-.bnr-adobexd-logo {
-    background-image: url(../images/adobe-xd.svg);
-}
-.bnr-bootstrap-logo {
-    background-image: url(../images/bootstrap.svg);
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .bnr-banner-dimention {
-        height: 150px;
-        padding: 10px;
-    }
 
-    .bnr-logo-dimention {
-        height: 25px;
-        width: 25px;
-    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .bnr-banner-dimention {
-        height: 225px;
-        padding: 15px;
-    }
-
-    .bnr-logo-dimention {
-        height: 30px;
-        width: 30px;
-    }
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {}
