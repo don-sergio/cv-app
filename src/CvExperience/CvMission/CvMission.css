@@ -1,18 +1,23 @@
-.bnr-root {
-    background-color: #497b21;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.mission-card {
+    height: 100%;
+    width: 100%;
 }
 
-.bnr-banner-dimention {
-    height: 200px;
-    padding: 20px;
+.mission-subheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+    .mission-subheading {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {}

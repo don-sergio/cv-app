@@ -11,9 +11,6 @@ import Hidden from 'material-ui/Hidden';
 
 
 const styles = theme => ({
-    root: {
-        flexGrow: 1,
-    },
     flex: {
         flex: 1,
     },
@@ -33,7 +30,7 @@ const styles = theme => ({
 const CvToolbar = (props) => {
     const { classes } = props;
     return (
-        <div className={classes.root}>
+        <div>
             <AppBar position="static">
                 <Toolbar>
                     <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">

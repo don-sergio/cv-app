@@ -5,5 +5,5 @@
 }
 
 .skls-elem {
-    width: 50%;
+    flex-basis: 50%
 }

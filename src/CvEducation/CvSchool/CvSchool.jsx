@@ -9,7 +9,6 @@ import Card, { CardContent } from 'material-ui/Card';
 const CvSchool = (props) => {
     const { school, width } = props
     const align = width === 'xs' || width === 'sm' ? 'center' : 'inherit'
-    console.log(width);
     return (
         <Card className="schl-card">
             <CardContent>

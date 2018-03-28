@@ -8,6 +8,7 @@ import CvBanner from '../CvBanner/CvBanner.jsx';
 import CvCard from '../CvCard/CvCard.jsx';
 import CvSkills from '../CvSkills/CvSkills.jsx';
 import CvEducation from '../CvEducation/CvEducation.jsx';
+import CvExperience from '../CvExperience/CvExperience.jsx';
 import Typography from 'material-ui/Typography';
 
 const styles = theme => ({
@@ -19,8 +20,8 @@ const App = (props) => {
     return (
         <div>
             <header>
-                <CvToolbar />
-                <CvBanner />
+                <div><CvToolbar /></div>
+                <div><CvBanner /></div>
             </header>
             <main>
                 <div className="app-main-row">
@@ -38,6 +39,12 @@ const App = (props) => {
                 <div className="app-main-row">
                     <div className="app-main-education">
                         <CvEducation />
+                    </div>
+                </div>
+                <Typography align="center" variant="display1">{resumeJSON.professionnalExperiences.title}</Typography>
+                <div className="app-main-row">
+                    <div className="app-main-experience">
+                        <CvExperience />
                     </div>
                 </div>
             </main>

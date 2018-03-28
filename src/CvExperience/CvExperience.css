@@ -1,18 +1,26 @@
-.bnr-root {
-    background-color: #497b21;
+.expr-root {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
-.bnr-banner-dimention {
-    height: 200px;
-    padding: 20px;
+.expr-mission {
+    flex-basis: 50%;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+    .expr-root {
+        flex-direction: column;
+    }
+
+    .expr-mission {
+        flex-basis: auto;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {}
