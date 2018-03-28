@@ -1,5 +1,5 @@
 import React from 'react'
-// import './CvSkills.css'
+import './CvSkills.css'
 import resumeJSON from '../models/curriculum-vitae.json'
 import Typography from 'material-ui/Typography';
 import Card, { CardContent } from 'material-ui/Card';
@@ -22,26 +22,23 @@ const CvSkills = (props) => {
 
     return (
         <Card>
-            <CardContent>
-                <div className="row">
-                    <div className="col">
-                        <Typography variant="subheading">{resumeJSON.TechnicalSkills.webTechnologies.title}</Typography>
+            <CardContent className="skls-content">
+                    <div className="skls-elem">
+                        <Typography gutterBottom variant="headline">{resumeJSON.TechnicalSkills.webTechnologies.title}</Typography>
                         {listWeb}
                     </div>
-                    <div className="col">
-                        <Typography variant="subheading">{resumeJSON.TechnicalSkills.jsFrameworks.title}</Typography>
+                    <div className="skls-elem">
+                        <Typography gutterBottom variant="headline">{resumeJSON.TechnicalSkills.jsFrameworks.title}</Typography>
                         {listFrameworks}
                     </div>
-                    <div className="w-100"></div>
-                    <div className="col">
-                        <Typography variant="subheading">{resumeJSON.TechnicalSkills.tools.title}</Typography>
+                    <div className="skls-elem">
+                        <Typography gutterBottom variant="headline">{resumeJSON.TechnicalSkills.tools.title}</Typography>
                         {listTools}
                     </div>
-                    <div className="col">
-                        <Typography variant="subheading">{resumeJSON.TechnicalSkills.databases.title}</Typography>
+                    <div className="skls-elem">
+                        <Typography gutterBottom variant="headline">{resumeJSON.TechnicalSkills.databases.title}</Typography>
                         {listDatabases}
                     </div>
-                </div>
             </CardContent>
         </Card>
     )

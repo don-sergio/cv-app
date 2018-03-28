@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import resumeJSON from '../models/curriculum-vitae.json';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
@@ -7,6 +7,7 @@ import CvToolbar from '../CvToolbar/CvToolbar.jsx';
 import CvBanner from '../CvBanner/CvBanner.jsx';
 import CvCard from '../CvCard/CvCard.jsx';
 import CvSkills from '../CvSkills/CvSkills.jsx';
+import CvEducation from '../CvEducation/CvEducation.jsx';
 import Typography from 'material-ui/Typography';
 
 const styles = theme => ({
@@ -21,22 +22,22 @@ const App = (props) => {
                 <CvToolbar />
                 <CvBanner />
             </header>
-            <main className="container-fluid">
-                <div className="row justify-content-center">
-                    <div className="col-10 col-sm-8 col-md-6">
+            <main>
+                <div className="app-main-row">
+                    <div className="app-main-card">
                         <CvCard />
                     </div>
                 </div>
                 <Typography align="center" variant="display1">{resumeJSON.TechnicalSkills.title}</Typography>
-                <div className="row justify-content-center">
-                    <div className="col">
+                <div className="app-main-row">
+                    <div className="app-main-skills">
                         <CvSkills />
                     </div>
                 </div>
-                <Typography align="center" variant="display1">{resumeJSON.TechnicalSkills.title}</Typography>
-                <div className="row justify-content-center">
-                    <div className="col">
-                        <CvSkills />
+                <Typography align="center" variant="display1">{resumeJSON.education.title}</Typography>
+                <div className="app-main-row">
+                    <div className="app-main-education">
+                        <CvEducation />
                     </div>
                 </div>
             </main>

@@ -1,39 +1,18 @@
-.crd-card {
+.edc-root {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
-
-.crd-content {
-    flex: 1 0 auto;
-}
-
-.crd-row {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 8px;
-}
-
-.crd-cover {
-    width: 151px;
-    height: 151px; 
-}
-
-.crd-leftIcon {
-    margin-right: 8px;
+.edc-shool {
+    flex: 1;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    .crd-card {
+    .edc-root {
         flex-direction: column;
-    }
-
-    .crd-row {
-        justify-content: center;
     }
 }
 

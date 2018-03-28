@@ -1,0 +1,9 @@
+.skls-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.skls-elem {
+    width: 50%;
+}
