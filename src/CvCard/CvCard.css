@@ -26,7 +26,7 @@
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media all and (max-width: 599px) {
 
     .crd-card {
         flex-direction: column;
@@ -38,13 +38,13 @@
 }
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media all and (min-width: 600px) and (max-width: 959px) {}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media all and (min-width: 960px) and (max-width: 1279px) {}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media all and (min-width: 1280px) and (max-width: 1919px) {}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media all and (min-width: 1920px) {}
