@@ -17,6 +17,9 @@
 .app-main-experience {
     flex-basis: 70%;
 }
+.app-main-languages {
+    flex-basis: 70%;
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media all and (max-width: 599px) {
@@ -32,6 +35,9 @@
         flex-basis: 90%;
     }
     .app-main-experience {
+        flex-basis: 90%;
+    }
+    .app-main-languages {
         flex-basis: 90%;
     }
 }

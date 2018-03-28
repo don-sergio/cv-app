@@ -9,6 +9,7 @@ import CvCard from '../CvCard/CvCard.jsx';
 import CvSkills from '../CvSkills/CvSkills.jsx';
 import CvEducation from '../CvEducation/CvEducation.jsx';
 import CvExperience from '../CvExperience/CvExperience.jsx';
+import CvLanguages from '../CvLanguages/CvLanguages.jsx';
 import Typography from 'material-ui/Typography';
 
 const styles = theme => ({
@@ -45,6 +46,12 @@ const App = (props) => {
                 <div className="app-main-row">
                     <div className="app-main-experience">
                         <CvExperience />
+                    </div>
+                </div>
+                <Typography align="center" variant="display1">{resumeJSON.languages.title}</Typography>
+                <div className="app-main-row">
+                    <div className="app-main-languages">
+                        <CvLanguages />
                     </div>
                 </div>
             </main>
