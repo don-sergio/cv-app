@@ -1,8 +1,7 @@
 import React from 'react';
-import './App.css';
+import './CvApp.css';
+import CssBaseline from 'material-ui/CssBaseline';
 import resumeJSON from '../models/curriculum-vitae.json';
-import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
 import CvToolbar from '../CvToolbar/CvToolbar.jsx';
 import CvBanner from '../CvBanner/CvBanner.jsx';
 import CvCard from '../CvCard/CvCard.jsx';
@@ -12,14 +11,11 @@ import CvExperience from '../CvExperience/CvExperience.jsx';
 import CvLanguages from '../CvLanguages/CvLanguages.jsx';
 import Typography from 'material-ui/Typography';
 
-const styles = theme => ({
+const CvApp = (props) => {
 
-});
-
-const App = (props) => {
-    // const { classes } = props;
     return (
         <div>
+            <CssBaseline />
             <header>
                 <div><CvToolbar /></div>
                 <div><CvBanner /></div>
@@ -59,9 +55,4 @@ const App = (props) => {
     );
 }
 
-
-App.propTypes = {
-    classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(styles)(App);
+export default CvApp;
