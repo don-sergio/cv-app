@@ -1,18 +1,20 @@
 .bnr-root {
-    background-color: #497b21;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    background-image: url('banner3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .bnr-banner-dimention {
-    height: 200px;
-    padding: 20px;
+    height: 300px;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media all and (max-width: 599px) {}
+@media all and (max-width: 599px) {
+    .bnr-banner-dimention {
+        height: 200px;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media all and (min-width: 600px) and (max-width: 959px) {}
