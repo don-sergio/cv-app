@@ -1,36 +1,18 @@
 .crd-card {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.crd-content {
-    flex: 1 0 auto;
 }
 
 .crd-row {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
-.crd-cover {
-    width: 151px;
-    height: 151px; 
-}
-
 /* // Extra small devices (portrait phones, less than 576px) */
-@media all and (max-width: 599px) {
-
-    .crd-card {
-        flex-direction: column;
-    }
-
-    .crd-row {
-        justify-content: center;
-    }
-}
+@media all and (max-width: 599px) {}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media all and (min-width: 600px) and (max-width: 959px) {}
