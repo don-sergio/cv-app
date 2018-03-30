@@ -25,7 +25,7 @@ const CvMission = (props) => {
                         {mission.client}
                     </Typography>
                 </div>
-                <Typography align={alignJustify}>
+                <Typography align={alignJustify} paragraph={true}>
                     {mission.desc}
                 </Typography>
             </CardContent>

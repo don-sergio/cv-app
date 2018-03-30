@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.app-leftIcon {
+    font-size: inherit !important;
+}
+
 .app-main-card {
     flex-basis: 50%;
 }

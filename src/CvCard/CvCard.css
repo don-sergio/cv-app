@@ -13,16 +13,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 8px;
 }
 
 .crd-cover {
     width: 151px;
     height: 151px; 
-}
-
-.crd-leftIcon {
-    margin-right: 8px;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */

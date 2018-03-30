@@ -15,7 +15,7 @@ const CvSchool = (props) => {
                 <Typography gutterBottom align={align} variant="headline">
                     {school.period}
                 </Typography>
-                <Typography align={align}>
+                <Typography align={align} paragraph={true}>
                     {school.desc}
                 </Typography>
             </CardContent>
