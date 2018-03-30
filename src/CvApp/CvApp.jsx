@@ -29,6 +29,16 @@ const CvApp = (props) => {
                     </div>
                 </div>
 
+
+
+                <div className="app-main-row">
+                    <div className="app-main-cover">
+                        <Typography gutterBottom={true} align="center" variant="body2">
+                            {resumeJSON.personalDetails.coverLetter}
+                        </Typography>
+                    </div>
+                </div>
+
                 <Typography align="center" variant="display1">
                     {resumeJSON.TechnicalSkills.title}
                 </Typography>
@@ -41,7 +51,7 @@ const CvApp = (props) => {
                         <CvSkills />
                     </div>
                 </div>
-                
+
                 <Typography align="center" variant="display1">
                     {resumeJSON.education.title}
                 </Typography>

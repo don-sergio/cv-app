@@ -11,6 +11,9 @@
 .app-main-card {
     flex-basis: 50%;
 }
+.app-main-cover {
+    flex-basis: 60%;
+}
 .app-main-skills {
     flex-basis: 70%;
 }
@@ -30,6 +33,9 @@
 
     .app-main-card {
         flex-basis: auto;
+    }
+    .app-main-cover {
+        flex-basis: 90%;
     }
     .app-main-skills {
         flex-basis: 90%;
