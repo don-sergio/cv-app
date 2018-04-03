@@ -1,21 +1,59 @@
-.crd-card {
+.crd-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+}
+
+.crd-coverLetter {
+    flex: 3;
+}
+
+.crd-information {
+    flex: 2;
+    margin: 0 0 0 24px;
 }
 
 .crd-row {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    margin-bottom: 8px;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media all and (max-width: 599px) {}
+@media all and (max-width: 599px) {
+    .crd-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .crd-information {
+        flex: initial;
+        margin: 16px 0 0 0;
+    }
+    .crd-coverLetter {
+        flex: initial;
+    }
+    .crd-row {
+        justify-content: center;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
-@media all and (min-width: 600px) and (max-width: 959px) {}
+@media all and (min-width: 600px) and (max-width: 959px) {
+    .crd-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .crd-information {
+        flex: initial;
+        margin: 16px 0 0 0;
+    }
+    .crd-coverLetter {
+        flex: initial;
+    }
+    .crd-row {
+        justify-content: center;
+    }
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media all and (min-width: 960px) and (max-width: 1279px) {}

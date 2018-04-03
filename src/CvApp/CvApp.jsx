@@ -20,24 +20,11 @@ const CvApp = (props) => {
             <header>
                 <div><CvToolbar /></div>
                 <div><CvBanner /></div>
+                <div className="app-header-card">
+                    <CvCard />
+                </div>
             </header>
             <main>
-
-                <div className="app-main-row">
-                    <div className="app-main-card">
-                        <CvCard />
-                    </div>
-                </div>
-
-
-
-                <div className="app-main-row">
-                    <div className="app-main-cover">
-                        <Typography gutterBottom={true} align="center" variant="body2">
-                            {resumeJSON.personalDetails.coverLetter}
-                        </Typography>
-                    </div>
-                </div>
 
                 <Typography align="center" variant="display1">
                     {resumeJSON.TechnicalSkills.title}

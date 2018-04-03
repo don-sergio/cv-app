@@ -1,13 +1,17 @@
 {
     "title": "Ingénieur d'études et développement JavaScript",
     "personalDetails": {
+        "title": "Coordonnées",
         "fullName": "M. Saad FATIHI",
         "age": 28,
         "address": "78500 Sartrouville",
         "tel": "06 64 09 36 88",
         "email": "saad.fatihi9@gmail.com",
-        "title": "Développeur JS & Web Designer",
-        "coverLetter": "Hello ! Je m’appelle Saad Fatihi, je suis développeur front end et Web designer. Mes cinq années d’expérience, m’ont permis de découvrir toutes les étapes du cycle de développement d’un projet Web, et de travailler avec plusieurs Api et Frameworks dont React, Angular et Node.js."
+        "profession": "Développeur JS & Web Designer",
+        "coverLetter": {
+            "title": "À propos",
+            "content": "Hello ! Je m’appelle Saad Fatihi, je suis développeur front end et Web designer. Mes cinq années d’expérience, m’ont permis de découvrir toutes les étapes du cycle de développement d’un projet Web, et de travailler avec plusieurs Api et Frameworks dont React, Angular et Node.js."
+        }
     },
     "education": {
         "title": "Formation",

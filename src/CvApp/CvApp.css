@@ -1,19 +1,23 @@
+.app-header-card {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: -76px;
+    transform: translateY(-100px);
+}
+
 .app-main-row {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 24px;
 }
 
 .app-leftIcon {
     font-size: inherit !important;
 }
 
-.app-main-card {
-    flex-basis: 50%;
-}
-.app-main-cover {
-    flex-basis: 60%;
-}
 .app-main-skills {
     flex-basis: 70%;
 }
@@ -31,11 +35,10 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media all and (max-width: 599px) {
 
-    .app-main-card {
-        flex-basis: auto;
-    }
-    .app-main-cover {
-        flex-basis: 90%;
+    .app-header-card {
+        width: 90%;
+        margin-bottom: -51px;
+        transform: translateY(-75px);
     }
     .app-main-skills {
         flex-basis: 90%;
