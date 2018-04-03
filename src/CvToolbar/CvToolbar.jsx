@@ -66,16 +66,16 @@ const CvToolbar = (props) => {
 
                         <span className={classes.flex}></span>
 
-                        <IconButton color="inherit" aria-label="Menu">
+                        <IconButton href="#skills" color="inherit" aria-label="Menu">
                             <Icon>settings</Icon>
                         </IconButton>
-                        <IconButton color="inherit" aria-label="Menu">
+                        <IconButton href="#education" color="inherit" aria-label="Menu">
                             <Icon>school</Icon>
                         </IconButton>
-                        <IconButton color="inherit" aria-label="Menu">
+                        <IconButton href="#experience" color="inherit" aria-label="Menu">
                             <Icon>work</Icon>
                         </IconButton>
-                        <IconButton color="inherit" aria-label="Menu">
+                        <IconButton href="#languages" color="inherit" aria-label="Menu">
                             <Icon>languages</Icon>
                         </IconButton>
                         <IconButton color="inherit" aria-label="Menu">

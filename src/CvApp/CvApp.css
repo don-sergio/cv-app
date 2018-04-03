@@ -3,7 +3,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 0;
-    margin-bottom: -76px;
+    margin-bottom: -100px;
     transform: translateY(-100px);
 }
 
@@ -11,29 +11,30 @@
     margin-top: 64px;
 }
 
-.app-main-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 24px;
-}
-
 .app-leftIcon {
     font-size: inherit !important;
 }
 
+.app-main-block {
+    margin-top: 24px;
+}
+
 .app-main-skills {
-    flex-basis: 70%;
+    width: 70%;
+    margin: auto;
 }
 
 .app-main-education {
-    flex-basis: 70%;
+    width: 70%;
+    margin: auto;
 }
 .app-main-experience {
-    flex-basis: 70%;
+    width: 70%;
+    margin: auto;
 }
 .app-main-languages {
-    flex-basis: 70%;
+    width: 70%;
+    margin: auto;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -50,17 +51,17 @@
     }
 
     .app-main-skills {
-        flex-basis: 90%;
+        width: 90%;
     }
     
     .app-main-education {
-        flex-basis: 90%;
+        width: 90%;
     }
     .app-main-experience {
-        flex-basis: 90%;
+        width: 90%;
     }
     .app-main-languages {
-        flex-basis: 90%;
+        width: 90%;
     }
 }
 
