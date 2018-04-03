@@ -7,6 +7,10 @@
     transform: translateY(-100px);
 }
 
+.app-header-banner {
+    margin-top: 64px;
+}
+
 .app-main-row {
     display: flex;
     justify-content: center;
@@ -40,6 +44,11 @@
         margin-bottom: -51px;
         transform: translateY(-75px);
     }
+
+    .app-header-banner {
+        margin-top: 56px;
+    }
+
     .app-main-skills {
         flex-basis: 90%;
     }

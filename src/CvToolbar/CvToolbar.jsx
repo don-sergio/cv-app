@@ -30,8 +30,7 @@ const styles = theme => ({
 const CvToolbar = (props) => {
     const { classes } = props;
     return (
-        <div>
-            <AppBar position="static">
+            <AppBar position="fixed">
                 <Toolbar>
                     <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
                         <Icon>home</Icon>
@@ -87,7 +86,6 @@ const CvToolbar = (props) => {
 
                 </Toolbar>
             </AppBar>
-        </div>
     );
 }
 
