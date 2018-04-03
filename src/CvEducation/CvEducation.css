@@ -5,6 +5,7 @@
     align-items: stretch;
 }
 .edc-shool {
+    padding: 8px;
     flex: 1;
 }
 
