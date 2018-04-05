@@ -1,26 +1,152 @@
-.edc-root {
+.edc-timeline {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: stretch;
 }
-.edc-shool {
-    padding: 8px;
+.edc-row {
+    display: flex;
+}
+.edc-col-title {
     flex: 1;
+    order: 1;
+}
+.edc-col-content {
+    flex: 1;
+    margin-bottom: 24px;
+    order: 3;
+}
+.edc-col-title-odd {
+    flex: 1;
+    order: 3;
+}
+.edc-col-content-odd {
+    flex: 1;
+    margin-bottom: 24px;
+    order: 1;
+}
+.edc-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 150px;
+    order: 2;
+}
+.edc-icon-branch-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+.edc-branch-horizontal {
+    height: 0;
+    flex: 1;
+    border: 2px solid #78ab4e;
+}
+.edc-branch-offset {
+    flex: 1;
+}
+.edc-icon {
+    height: 50px;
+    width: 50px;
+    border: 3px solid #78ab4e;
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.edc-branch-vertical {
+    flex: 1 0 0;
+    border: 2px solid #78ab4e;
+}
+.edc-row:last-child .edc-branch-vertical {
+    display: none;
+}
+.edc-icon-bp {
+    background-image: url('blaise-pascal.png');
+}
+.edc-icon-esisa {
+    background-image: url('esisa.png');
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media all and (max-width: 599px) {
+    .edc-icon-container {
+        flex: 0 0 24px;
+    }
 
-    .edc-root {
-        flex-direction: column;
+    .edc-icon {
+        height: 12px;
+        width: 12px;
+        border: none;
+        border-radius: 6;
+    }
+
+    .edc-icon-bp {
+        background-image: none;
+        background-color: #78ab4e;
+    }
+    .edc-icon-esisa {
+        background-image: none;
+        background-color: #78ab4e;
+    }
+
+    .edc-branch-vertical {
+        border: 1px solid #78ab4e;
+    }
+
+    .edc-branch-horizontal {
+        border: 1px solid #78ab4e;
+    }
+
+    .edc-col-title {
+        display: none;
+    }
+    .edc-icon-container {
+        order: 1;
+    }
+    .edc-col-content {
+        order: 2;
     }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media all and (min-width: 600px) and (max-width: 959px) {
-    .edc-root {
-        flex-direction: column;
+    .edc-icon-container {
+        flex: 0 0 24px;
+    }
+
+    .edc-icon {
+        height: 12px;
+        width: 12px;
+        border: none;
+        border-radius: 6;
+    }
+
+    .edc-icon-bp {
+        background-image: none;
+        background-color: #78ab4e;
+    }
+    .edc-icon-esisa {
+        background-image: none;
+        background-color: #78ab4e;
+    }
+
+    .edc-branch-vertical {
+        border: 1px solid #78ab4e;
+    }
+
+    .edc-branch-horizontal {
+        border: 1px solid #78ab4e;
+    }
+
+    .edc-col-title {
+        display: none;
+    }
+    .edc-icon-container {
+        order: 1;
+    }
+    .edc-col-content {
+        order: 2;
     }
 }
 

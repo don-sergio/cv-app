@@ -12,9 +12,6 @@ const CvSchool = (props) => {
     return (
         <Card className="schl-card">
             <CardContent>
-                <Typography gutterBottom align={align} variant="headline">
-                    {school.period}
-                </Typography>
                 <Typography align={align} paragraph={true}>
                     {school.desc}
                 </Typography>
