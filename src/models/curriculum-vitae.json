@@ -2,7 +2,7 @@
     "title": "Ingénieur d'études et développement JavaScript",
     "personalDetails": {
         "title": "Coordonnées",
-        "fullName": "M. Saad FATIHI",
+        "fullName": "M. Don Sergio",
         "age": 28,
         "address": "78500 Sartrouville",
         "tel": "06 64 09 36 88",
@@ -19,12 +19,14 @@
             {
                 "id": "isima",
                 "period": "2012-2013",
-                "desc": "Master Génie Logiciel et Intégration d’Applications à l’université Blaise Pascal."
+                "desc": "Master Génie Logiciel et Intégration d’Applications à l’université Blaise Pascal.",
+                "logo": "blaise-pascal.png"
             },
             {
                 "id": "esisa",
                 "period": "2008-2012",
-                "desc": "Ingénieur d'application en génie informatique à ESISA (Ecole supérieure d’ingénierie en sciences appliquées)."
+                "desc": "Ingénieur d'application en génie informatique à ESISA (Ecole supérieure d’ingénierie en sciences appliquées).",
+                "logo": "esisa.png"
             }
         ]
     },
