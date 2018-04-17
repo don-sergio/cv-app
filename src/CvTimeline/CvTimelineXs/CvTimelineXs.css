@@ -1,0 +1,33 @@
+.tlxs-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.tlxs-row-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tlxs-icon {
+    height: 50px;
+    width: 50px;
+    border: 3px solid #78ab4e;
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tlxs-branch-vertical {
+    flex: 25px;
+    border: 2px solid #78ab4e;
+}
+.tlxs-row:first-child .tlxs-branch-vertical:first-child {
+    display: none;
+}
+.tlxs-row-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
