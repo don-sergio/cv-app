@@ -16,8 +16,8 @@ const CvEducationTitle = (props) => {
 const CvEducationContent = (props) => {
     return (
         <Card className="edc-card">
-            {props.title && <Typography align='center' variant="headline">{props.title}</Typography>}
             <CardContent>
+                {props.title && <Typography align='center' variant="headline">{props.title}</Typography>}
                 <Typography align={props.xs ? 'justify' : 'left'} paragraph={true}>
                     {props.content}
                 </Typography>
