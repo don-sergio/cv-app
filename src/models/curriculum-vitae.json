@@ -59,27 +59,32 @@
                 {
                     "id": "html",
                     "name": "HTML5",
-                    "certificated": true
+                    "certificated": true,
+                    "logo": "html.svg"
                 },
                 {
                     "id": "css",
                     "name": "CSS3",
-                    "certificated": true
+                    "certificated": true,
+                    "logo": "css3.svg"
                 },
                 {
-                    "id": "scss",
-                    "name": "SCSS",
-                    "certificated": false
+                    "id": "sass",
+                    "name": "Sass",
+                    "certificated": false,
+                    "logo": "sass.svg"
                 },
                 {
                     "id": "js",
                     "name": "Javascript",
-                    "certificated": true
+                    "certificated": true,
+                    "logo": "javascript.svg"
                 },
                 {
                     "id": "ts",
                     "name": "Typescript",
-                    "certificated": false
+                    "certificated": false,
+                    "logo": "typescript.svg"
                 }
             ]
         },
@@ -89,32 +94,38 @@
                 {
                     "id": "react",
                     "name": "React",
-                    "certificated": false
+                    "certificated": false,
+                    "logo": "react.svg"
                 },
                 {
                     "id": "redux",
                     "name": "Redux",
-                    "certificated": false
+                    "certificated": false,
+                    "logo": "redux.svg"
                 },
                 {
                     "id": "angular",
                     "name": "Angular",
-                    "certificated": false
+                    "certificated": false,
+                    "logo": "angular.svg"
                 },
                 {
                     "id": "md",
                     "name": "Material design",
-                    "certificated": false
+                    "certificated": false,
+                    "logo": "md.svg"
                 },
                 {
                     "id": "bootstrap",
                     "name": "Bootstrap",
-                    "certificated": true
+                    "certificated": true,
+                    "logo": "bootstrap.svg"
                 },
                 {
                     "id": "jquery",
                     "name": "JQuery",
-                    "certificated": true
+                    "certificated": true,
+                    "logo": "none"
                 }
             ]
         },
@@ -124,17 +135,20 @@
                 {
                     "id": "mysql",
                     "name": "MYSQL",
-                    "certificated": false
+                    "certificated": false,
+                    "logo": "none"
                 },
                 {
                     "id": "postgresql",
                     "name": "Postgresql",
-                    "certificated": false
+                    "certificated": false,
+                    "logo": "postgresql.svg"
                 },
                 {
                     "id": "neo4j",
                     "name": "Neo4J",
-                    "certificated": false
+                    "certificated": false,
+                    "logo": "neo4j.svg"
                 }
             ]
         },
@@ -144,22 +158,26 @@
                 {
                     "id": "nodejs",
                     "name": "Node.js",
-                    "certificated": true
+                    "certificated": true,
+                    "logo": "nodejs.svg"
                 },
                 {
                     "id": "npm",
                     "name": "npm & yarn",
-                    "certificated": true
+                    "certificated": true,
+                    "logo": "yarn.svg"
                 },
                 {
                     "id": "webpack",
                     "name": "webpack",
-                    "certificated": false
+                    "certificated": false,
+                    "logo": "webpack.svg"
                 },
                 {
                     "id": "git",
                     "name": "Git",
-                    "certificated": true
+                    "certificated": true,
+                    "logo": "git.svg"
                 }
             ]
         }
