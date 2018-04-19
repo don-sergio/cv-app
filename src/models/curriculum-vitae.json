@@ -191,6 +191,7 @@
                 "id": "cacib",
                 "client": "Crédit Agricole CIB",
                 "desc": "Mise en oeuvre d’une plateforme de trading, suite à l’apparition de la nouvelle réforme FRTB.",
+                "logo": "cacib.jpg",
                 "technicalEnv": [
                     "Angular4",
                     "TypeScript2",
@@ -218,6 +219,7 @@
                 "id": "tiki",
                 "client": "Sedona",
                 "desc": "Développement d’une application web permettant d’interagir avec un robot d’accueil (TIKI de Event Bots).",
+                "logo": "sedona.png",                
                 "technicalEnv": [
                     "Création des IHMs Web avec du HTML5 & CSS3",
                     "Développement des composants de l’application avec le Framework Angular2",
@@ -238,6 +240,7 @@
                 "id": "hm",
                 "client": "Sedona",
                 "desc": "Mise en oeuvre d’une application pour la gestion interne des intervenants au sein de la société Harmonie mutuelle.",
+                "logo": "sedona.png",
                 "technicalEnv": [
                     "Création des IHMs Web avec le Framework Angular Material",
                     "Développement des fonctionnalités Frontend et gestion des routes avec le Framework AngularJS",
@@ -265,6 +268,7 @@
                 "id": "sfr",
                 "client": "SFR",
                 "desc": "Maintenance et évolution applicative de l’outils Elios utilisé pour le calcul de l’éligibilité d’une adresse par rapport à la fibre SFR.",
+                "logo": "sfr.jpg",
                 "technicalEnv": [
                     "Correction des anomalies dans la partie Backend de l’application",
                     "Evolution du module administration d’Elios afin d’offrir plus de flexibilité",

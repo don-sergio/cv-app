@@ -8,7 +8,7 @@ const CvTimelineXs = (props) => {
     const tlxsRows = items.map((item, index) => {
 
         const iconStyle = {
-            backgroundImage: `url(${require(`../../images/${item.img}`)})`
+            backgroundImage: item.img ? `url(${require(`../../images/${item.img}`)})` : 'none'
         }
 
         return (

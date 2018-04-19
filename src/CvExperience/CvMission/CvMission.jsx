@@ -1,6 +1,6 @@
 import React from 'react'
 import './CvMission.css'
-
+import Hidden from 'material-ui/Hidden';
 import PropTypes from 'prop-types';
 import compose from 'recompose/compose';
 import withWidth from 'material-ui/utils/withWidth';
@@ -18,9 +18,11 @@ const CvMission = (props) => {
                     {mission.title}
                 </Typography>
                 <div className="mission-subheading">
-                    <Typography gutterBottom align={alignCenter} variant="subheading">
-                        {mission.period}
-                    </Typography>
+                    <Hidden mdUp>
+                        <Typography gutterBottom align={alignCenter} variant="subheading">
+                            {mission.period}
+                        </Typography>
+                    </Hidden>
                     <Typography gutterBottom align={alignCenter} variant="subheading">
                         {mission.client}
                     </Typography>
