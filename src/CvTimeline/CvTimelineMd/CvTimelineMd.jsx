@@ -13,7 +13,7 @@ const CvTimelineMd = (props) => {
         const classBranchLeft = index % 2 === 0 ? 'tlmd-branch-offset' : 'tlmd-branch-horizontal'
         const classBranchRight = index % 2 === 0 ? 'tlmd-branch-horizontal' : 'tlmd-branch-offset'
         const iconStyle = {
-            backgroundImage: `url(${require(`../../images/${item.img}`)})`
+            backgroundImage: item.img ? `url(${require(`../../images/${item.img}`)})` : 'none'
 
         }
 

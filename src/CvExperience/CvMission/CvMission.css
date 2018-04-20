@@ -5,8 +5,7 @@
 
 .mission-subheading {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
