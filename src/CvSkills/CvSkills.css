@@ -4,8 +4,14 @@
     align-content: space-between;
 }
 
-.skls-elem {
-    flex-basis: 50%
+.skls-block {
+    flex-basis: 50%;
+}
+
+.skls-elems {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -18,7 +24,7 @@
         flex-wrap: nowrap;
     }
     
-    .skls-elem {
+    .skls-block {
         flex-basis: auto
     }
     

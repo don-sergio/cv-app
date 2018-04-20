@@ -60,12 +60,14 @@
                     "id": "html",
                     "name": "HTML5",
                     "certificated": true,
+                    "link": "https://openclassrooms.com/course-certificates/4963448565",
                     "logo": "html.svg"
                 },
                 {
                     "id": "css",
                     "name": "CSS3",
                     "certificated": true,
+                    "link": "https://openclassrooms.com/course-certificates/4963448565",
                     "logo": "css3.svg"
                 },
                 {
@@ -78,6 +80,7 @@
                     "id": "js",
                     "name": "Javascript",
                     "certificated": true,
+                    "link": "https://openclassrooms.com/course-certificates/4122846800",
                     "logo": "javascript.svg"
                 },
                 {
@@ -112,19 +115,22 @@
                 {
                     "id": "md",
                     "name": "Material design",
-                    "certificated": false,
+                    "certificated": true,
+                    "link": "https://openclassrooms.com/course-certificates/6455160077",
                     "logo": "md.svg"
                 },
                 {
                     "id": "bootstrap",
                     "name": "Bootstrap",
                     "certificated": true,
+                    "link": "https://openclassrooms.com/course-certificates/7540930696",
                     "logo": "bootstrap.svg"
                 },
                 {
                     "id": "jquery",
                     "name": "JQuery",
                     "certificated": true,
+                    "link": "https://openclassrooms.com/course-certificates/2237495244",
                     "logo": "none"
                 }
             ]
@@ -159,12 +165,13 @@
                     "id": "nodejs",
                     "name": "Node.js",
                     "certificated": true,
+                    "link": "https://openclassrooms.com/course-certificates/9248396201",
                     "logo": "nodejs.svg"
                 },
                 {
                     "id": "npm",
                     "name": "npm & yarn",
-                    "certificated": true,
+                    "certificated": false,
                     "logo": "yarn.svg"
                 },
                 {
@@ -177,6 +184,7 @@
                     "id": "git",
                     "name": "Git",
                     "certificated": true,
+                    "link": "https://openclassrooms.com/course-certificates/9953442949",
                     "logo": "git.svg"
                 }
             ]
