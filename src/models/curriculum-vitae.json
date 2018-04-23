@@ -205,12 +205,12 @@
                     "ActiveUI"
                 ],
                 "tasks": [
-                    "Initialisation et création du projet avec l’assistant Angular CLI",
-                    "Définition de la charte graphique de l’application",
-                    "Création du thème CACIB et des IHMs Web avec Angular Material",
-                    "Développement des services et des composants Angular",
-                    "Création des Dashboards avec l’outil ActiveUI",
-                    "Amélioration des Dashboards avec des composants ReactJS et Material UI"
+                    "Initialisation et création du projet avec l’assistant Angular CLI.",
+                    "Définition de la charte graphique de l’application.",
+                    "Création du thème CACIB et des IHMs Web avec Angular Material.",
+                    "Développement des services et des composants Angular.",
+                    "Création des Dashboards avec l’outil ActiveUI.",
+                    "Amélioration des Dashboards avec des composants ReactJS et Material UI."
                 ]
             },
             {
@@ -220,12 +220,12 @@
                 "client": "Sedona",
                 "desc": "Développement d’une application web permettant d’interagir avec un robot d’accueil (TIKI de Event Bots).",
                 "logo": "sedona.png",                
-                "technicalEnv": [
-                    "Création des IHMs Web avec du HTML5 & CSS3",
-                    "Développement des composants de l’application avec le Framework Angular2",
-                    "Développement d’un service pour assurer l’interfaçage avec le robot"
-                ],
                 "tasks": [
+                    "Création des IHMs Web avec du HTML5 & CSS3.",
+                    "Développement des composants de l’application avec le Framework Angular2.",
+                    "Développement d’un service pour assurer l’interfaçage avec le robot."
+                ],
+                "technicalEnv": [
                     "Angular2",
                     "TypeScript2",
                     "HTML5",
@@ -241,14 +241,14 @@
                 "client": "Sedona",
                 "desc": "Mise en oeuvre d’une application pour la gestion interne des intervenants au sein de la société Harmonie mutuelle.",
                 "logo": "sedona.png",
-                "technicalEnv": [
-                    "Création des IHMs Web avec le Framework Angular Material",
-                    "Développement des fonctionnalités Frontend et gestion des routes avec le Framework AngularJS",
-                    "Définition des contrats d’interface pour les échanges client-serveur",
-                    "Réalisation d’une API REST pour interagir avec le service Backend",
-                    "Développement de la partie Backend avec les EJB 3"
-                ],
                 "tasks": [
+                    "Création des IHMs Web avec le Framework Angular Material.",
+                    "Développement des fonctionnalités Frontend et gestion des routes avec le Framework AngularJS.",
+                    "Définition des contrats d’interface pour les échanges client-serveur.",
+                    "Réalisation d’une API REST pour interagir avec le service Backend.",
+                    "Développement de la partie Backend avec les EJB 3."
+                ],
+                "technicalEnv": [
                     "AngularJS1",
                     "Angular Material1",
                     "HTML5",
@@ -269,13 +269,13 @@
                 "client": "SFR",
                 "desc": "Maintenance et évolution applicative de l’outils Elios utilisé pour le calcul de l’éligibilité d’une adresse par rapport à la fibre SFR.",
                 "logo": "sfr.jpg",
-                "technicalEnv": [
-                    "Correction des anomalies dans la partie Backend de l’application",
-                    "Evolution du module administration d’Elios afin d’offrir plus de flexibilité",
-                    "Déploiement des fichiers MXD pour la génération des services cartographiques",
-                    "Migration Frontend du Flex vers HTML5, CSS3 et AngularJS"
-                ],
                 "tasks": [
+                    "Correction des anomalies dans la partie Backend de l’application.",
+                    "Evolution du module administration d’Elios afin d’offrir plus de flexibilité.",
+                    "Déploiement des fichiers MXD pour la génération des services cartographiques.",
+                    "Migration Frontend du Flex vers HTML5, CSS3 et AngularJS."
+                ],
+                "technicalEnv": [
                     "AngularJS1",
                     "HTML5",
                     "CSS3",
