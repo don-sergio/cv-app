@@ -1,0 +1,80 @@
+.gauge {
+    display:inline-block;
+    position:relative;
+    width:100px;
+    height:50px;
+    overflow:hidden;
+}
+
+.gauge:before, .gauge:after, .meter {
+    position:absolute;
+    display:block;
+    content:"";
+}
+  
+.gauge:before, .meter { 
+    width:100px;
+    height:50px;
+}
+.gauge:before { 
+    border-radius:50px 50px 0 0;
+    background-color:#404852;
+}
+  
+.gauge:after {
+    position:absolute;
+    bottom:0;
+    left:10px;
+    width:80px;
+    height:40px;
+    background:#fff;
+    border-radius:40px 40px 0 0;
+}
+
+.meter {
+    top:100%;
+    transform-origin:center top;
+    border-radius:0 0 50px 50px;
+    background:#78ab4e;
+}
+
+  /* // Extra small devices (portrait phones, less than 576px) */
+@media all and (max-width: 599px) {
+
+    .gauge {
+        width:50px;
+        height:25px;
+    }
+        
+    .gauge:before, .meter { 
+        width:50px;
+        height:25px;
+    }
+    .gauge:before { 
+        border-radius:25px 25px 0 0;
+    }
+        
+    .gauge:after {
+        left:5px;
+        width:40px;
+        height:20px;
+        border-radius:20px 20px 0 0;
+    }
+        
+    .meter {
+        border-radius:0 0 25px 25px;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media all and (min-width: 600px) and (max-width: 959px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media all and (min-width: 960px) and (max-width: 1279px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media all and (min-width: 1280px) and (max-width: 1919px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media all and (min-width: 1920px) {}

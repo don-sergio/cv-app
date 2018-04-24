@@ -35,15 +35,18 @@
         "list": [
             {
                 "id": "1",
-                "name": "Français"
+                "name": "Français",
+                "level": "5"
             },
             {
                 "id": "2",
-                "name": "Anglais"
+                "name": "Anglais",
+                "level": "3"
             },
             {
                 "id": "3",
-                "name": "Arabe"
+                "name": "Arabe",
+                "level": "5"
             }
         ]
     },
