@@ -19,7 +19,7 @@ const CvApp = (props) => {
             <CssBaseline />
             <header>
                 <div><CvToolbar /></div>
-                <div className="app-header-banner">
+                <div className="app-header-banner" id="banner">
                     <CvBanner />
                 </div>
                 <div className="app-header-card">
