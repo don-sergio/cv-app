@@ -34,7 +34,7 @@ const CvToolbar = (props) => {
     return (
         <AppBar position="fixed">
             <Toolbar>
-                <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
+                <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" href="#">
                     {/* <Icon>home</Icon> */}
                     {width}
                 </IconButton>
