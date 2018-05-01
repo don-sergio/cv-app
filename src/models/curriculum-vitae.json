@@ -5,8 +5,10 @@
         "fullName": "M. Don Sergio",
         "age": 28,
         "address": "78500 Sartrouville",
-        "tel": "06 64 09 36 88",
+        "tel": "+33664093688",
+        "telDisplay": "+33 664 093 688",
         "email": "saad.fatihi9@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/saad-fatihi-02a4a6139/",
         "profession": "Développeur JS & Web Designer",
         "coverLetter": {
             "title": "À propos",

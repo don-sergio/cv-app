@@ -31,7 +31,7 @@ const CvCard = (props) => {
                     <Typography gutterBottom align={align} variant="headline">{resumeJSON.personalDetails.title}</Typography>
                     <div className="crd-row">
                         <Icon className={classes.leftIcon}>phone</Icon>
-                        <Typography variant="body1">{resumeJSON.personalDetails.tel}</Typography>
+                        <Typography variant="body1">{resumeJSON.personalDetails.telDisplay}</Typography>
                     </div>
                     <div className="crd-row">
                         <Icon className={classes.leftIcon}>email</Icon>
