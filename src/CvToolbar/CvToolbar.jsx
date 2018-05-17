@@ -65,8 +65,7 @@ class CvToolbar extends React.Component {
             <AppBar position="fixed">
                 <Toolbar id="toolbar">
                     <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" href="#">
-                        {/* <Icon>home</Icon> */}
-                        {width}
+                        <Icon>home</Icon>
                     </IconButton>
 
                     <Hidden only={['xs', 'sm']}>
