@@ -60,7 +60,7 @@ class CvToolbar extends React.Component {
     }
 
     render() {
-        const { classes, width } = this.props;
+        const { classes } = this.props;
         return (
             <AppBar position="fixed">
                 <Toolbar id="toolbar">

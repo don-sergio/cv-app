@@ -53,7 +53,7 @@ class CvApp extends React.Component {
 
     render() {
 
-        const { classes, theme } = this.props;
+        const { classes } = this.props;
         const { clicked } = this.state;
 
         return (
