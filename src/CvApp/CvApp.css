@@ -41,6 +41,20 @@
     margin: auto;
 }
 
+.app-footer-tools {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-footer-svg{
+    height: 56px;
+    width: 56px;
+}
+
 /* // Extra small devices (portrait phones, less than 576px) */
 @media all and (max-width: 599px) {
 
@@ -63,6 +77,11 @@
     }
     .app-main-languages {
         width: 90%;
+    }
+
+    .app-footer-svg{
+        height: 40px;
+        width: 40px;
     }
 }
 
