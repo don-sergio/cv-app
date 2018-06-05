@@ -2,7 +2,7 @@
     "title": "Ingénieur d'études et développement JavaScript",
     "personalDetails": {
         "title": "Coordonnées",
-        "fullName": "M. Don Sergio",
+        "fullName": "M. Saad Fathi",
         "age": 28,
         "address": "78500 Sartrouville",
         "tel": "+33664093688",
@@ -12,7 +12,7 @@
         "profession": "Développeur JS & Web Designer",
         "coverLetter": {
             "title": "À propos",
-            "content": "Hello ! Je m’appelle Saad Fatihi, je suis développeur front end et Web designer. Mes cinq années d’expérience, m’ont permis de découvrir toutes les étapes du cycle de développement d’un projet Web, et de travailler avec plusieurs Api et Frameworks dont React, Angular et Node.js."
+            "content": "Hello ! Je m’appelle Saad Fatihi, je suis développeur front end et Web designer. Mes cinq années d’expérience, m’ont permis de découvrir toutes les étapes du cycle de développement d’un projet Web, et de travailler avec plusieurs Api et Frameworks, y compris React, Angular et Node.js."
         }
     },
     "education": {
@@ -136,7 +136,7 @@
                     "name": "JQuery",
                     "certificated": true,
                     "link": "https://openclassrooms.com/course-certificates/2237495244",
-                    "logo": "none"
+                    "logo": "jquery.svg"
                 }
             ]
         },
@@ -147,7 +147,7 @@
                     "id": "mysql",
                     "name": "MYSQL",
                     "certificated": false,
-                    "logo": "none"
+                    "logo": "mysql.svg"
                 },
                 {
                     "id": "postgresql",
@@ -160,11 +160,17 @@
                     "name": "Neo4J",
                     "certificated": false,
                     "logo": "neo4j.svg"
+                },
+                {
+                    "id": "elasticsearch",
+                    "name": "Elasticsearch",
+                    "certificated": false,
+                    "logo": "elasticsearch.svg"
                 }
             ]
         },
         "tools": {
-            "title": "Tools",
+            "title": "Outils",
             "list": [
                 {
                     "id": "nodejs",
@@ -191,6 +197,19 @@
                     "certificated": true,
                     "link": "https://openclassrooms.com/course-certificates/9953442949",
                     "logo": "git.svg"
+                },
+                {
+                    "id": "adobexd",
+                    "name": "Adobe XD",
+                    "certificated": true,
+                    "link": "https://openclassrooms.com/course-certificates/7089323867",
+                    "logo": "adobe-xd.svg"
+                },
+                {
+                    "id": "adobeil",
+                    "name": "Adobe Illustrator",
+                    "certificated": false,
+                    "logo": "adobe-il.svg"
                 }
             ]
         }
