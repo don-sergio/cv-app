@@ -19,7 +19,7 @@ const CvBanner = (props) => {
             <div className="bnr-degraded">
                 <div className="bnr-title">
                 <Typography style={style} align="center" variant="headline">{resumeJSON.personalDetails.fullName}</Typography>
-                <Typography style={style} align="center" variant="subheading">{resumeJSON.personalDetails.profession}</Typography>
+                <Typography style={style} align="center" variant="subheading">{resumeJSON.title}</Typography>
                 </div>
             </div>
         </div>

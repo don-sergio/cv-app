@@ -1,8 +1,8 @@
 {
-    "title": "Ingénieur d'études et développement JavaScript",
+    "title": "Développeur Front-end & Web Designer",
     "personalDetails": {
         "title": "Coordonnées",
-        "fullName": "M. Saad Fathi",
+        "fullName": "M. Saad Fatihi",
         "age": 28,
         "address": "78500 Sartrouville",
         "tel": "+33664093688",
@@ -12,7 +12,7 @@
         "profession": "Développeur JS & Web Designer",
         "coverLetter": {
             "title": "À propos",
-            "content": "Hello ! Je m’appelle Saad Fatihi, je suis développeur front end et Web designer. Mes cinq années d’expérience, m’ont permis de découvrir toutes les étapes du cycle de développement d’un projet Web, et de travailler avec plusieurs Api et Frameworks, y compris React, Angular et Node.js."
+            "content": "Hello ! Je m’appelle Saad Fatihi, je suis développeur Front-end et Web designer. Mes cinq années d’expérience, m’ont permis de découvrir toutes les étapes du cycle de développement d’un projet Web, et de travailler avec plusieurs Api et Frameworks, y compris React, Angular et Node.js."
         }
     },
     "education": {
@@ -218,7 +218,7 @@
         "title": "Expériences Professionnelles",
         "list": [
             {
-                "period": "Depuis mars 2017",
+                "period": "Mars 2017 - Avril 2018",
                 "title": "Analyste programmeur ReactJS et Angular4",
                 "id": "cacib",
                 "client": "Crédit Agricole CIB",
@@ -237,12 +237,14 @@
                     "ActiveUI"
                 ],
                 "tasks": [
+                    "Création des Dashboards avec l’outil React  ActiveUI.",
+                    "Amélioration des Dashboards avec des composants React et Material UI.",
+                    "Gestion du state de l’application avec Redux.",
+                    "Définition des tests unitaires avec Jest et Enzyme.",
                     "Initialisation et création du projet avec l’assistant Angular CLI.",
                     "Définition de la charte graphique de l’application.",
-                    "Création du thème CACIB et des IHMs Web avec Angular Material.",
-                    "Développement des services et des composants Angular.",
-                    "Création des Dashboards avec l’outil ActiveUI.",
-                    "Amélioration des Dashboards avec des composants ReactJS et Material UI."
+                    "Création du thème CACIB et des IHMs Web avec Angular Material",
+                    "Développement des services et des composants Angular."
                 ]
             },
             {
@@ -251,7 +253,7 @@
                 "id": "tiki",
                 "client": "Sedona",
                 "desc": "Développement d’une application web permettant d’interagir avec un robot d’accueil (TIKI de Event Bots).",
-                "logo": "sedona.png",                
+                "logo": "sedona.png",
                 "tasks": [
                     "Création des IHMs Web avec du HTML5 & CSS3.",
                     "Développement des composants de l’application avec le Framework Angular2.",

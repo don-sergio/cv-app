@@ -13,6 +13,7 @@ import compose from 'recompose/compose';
 import withWidth from 'material-ui/utils/withWidth';
 import $ from 'jquery';
 import azgerLogo from '../images/azger-logo.svg';
+import classnames from 'classnames';
 
 const styles = theme => ({
     flex: {
@@ -41,7 +42,7 @@ class CvToolbar extends React.Component {
 
     addEvents() {
         $(function () {
-            $('#toolbar a').on('click', function (e) {
+            $('#toolbar .tbr-hash').on('click', function (e) {
                 e.preventDefault();
                 var hash = this.hash;
                 if (hash !== '') {
@@ -66,31 +67,31 @@ class CvToolbar extends React.Component {
         return (
             <AppBar position="fixed">
                 <Toolbar id="toolbar">
-                    <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" href="#">
+                    <IconButton className={classnames('tbr-hash', classes.menuButton)} color="inherit" aria-label="Menu" href="#">
                     <Avatar src={azgerLogo} />
                     </IconButton>
 
                     <Hidden only={['xs', 'sm']}>
-                        <Button href="#skills" className={classes.button} color="inherit">
+                        <Button href="#skills" className={classnames('tbr-hash', classes.button)} color="inherit">
                             {resumeJSON.TechnicalSkills.title}
                             <Icon className={classes.rightIcon}>settings</Icon>
                         </Button>
-                        <Button href="#education" className={classes.button} color="inherit">
+                        <Button href="#education" className={classnames('tbr-hash', classes.button)} color="inherit">
                             {resumeJSON.education.title}
                             <Icon className={classes.rightIcon}>school</Icon>
                         </Button>
-                        <Button href="#experience" className={classes.button} color="inherit">
+                        <Button href="#experience" className={classnames('tbr-hash', classes.button)} color="inherit">
                             Expériences
                             <Icon className={classes.rightIcon}>work</Icon>
                         </Button>
-                        <Button href="#languages" className={classes.button} color="inherit">
+                        <Button href="#languages" className={classnames('tbr-hash', classes.button)} color="inherit">
                             Langues
                             <Icon className={classes.rightIcon}>language</Icon>
                         </Button>
 
                         <span className={classes.flex}></span>
 
-                        <Button className={classes.button} color="inherit">
+                        <Button href="cv-sf.pdf" className={classes.button} color="inherit" download>
                             PDF
                             <Icon className={classes.rightIcon}>file_download</Icon>
                         </Button>
@@ -100,19 +101,19 @@ class CvToolbar extends React.Component {
 
                         <span className={classes.flex}></span>
 
-                        <IconButton href="#skills" color="inherit" aria-label="Menu">
+                        <IconButton href="#skills" className='tbr-hash' color="inherit" aria-label="Menu">
                             <Icon>settings</Icon>
                         </IconButton>
-                        <IconButton href="#education" color="inherit" aria-label="Menu">
+                        <IconButton href="#education" className='tbr-hash' color="inherit" aria-label="Menu">
                             <Icon>school</Icon>
                         </IconButton>
-                        <IconButton href="#experience" color="inherit" aria-label="Menu">
+                        <IconButton href="#experience" className='tbr-hash' color="inherit" aria-label="Menu">
                             <Icon>work</Icon>
                         </IconButton>
-                        <IconButton href="#languages" color="inherit" aria-label="Menu">
+                        <IconButton href="#languages" className='tbr-hash' color="inherit" aria-label="Menu">
                             <Icon>languages</Icon>
                         </IconButton>
-                        <IconButton color="inherit" aria-label="Menu">
+                        <IconButton href="cv-sf.pdf" color="inherit" aria-label="Menu" download>
                             <Icon>file_download</Icon>
                         </IconButton>
 
